@@ -11,20 +11,57 @@ header {
 #heading{
   font-family: 'Times New Roman', Times, serif;
   font-size: 120%;
-  background-color: yellow;
+  color: #FCF7F8;
+  background-color: #510D0A;
+  margin: 0%;
+  padding: 0%;
+  height: auto
+  ;
+  width: auto;
 }
 
 #sidebar{ 
   font-family: 'Times New Roman', Times, serif;
-  background-color: blue;
+  background-color: #a29f15;
   width:200px;
+  height: auto;
   color: #FCF7F8;
+  padding-top: 1rem;
+  margin: 0%;
 }
 
+.menu{
+  padding: 10%;
+  margin: 10%;
+  border: #a29f15 ;
+ }
 
+#profilepicture{ 
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  border-color: blue;
+  border: 3px solid;
+  padding: 0%;
+}
+
+#mainsection{
+  font-family: 'Times New Roman', Times, serif; 
+  border: 1pt white solid;
+  margin: 0rem;
+  padding:5% ;
+}
+
+.icon{
+  width: 5rem;
+  border-radius: 80%;
+  margin: 1rem;
+  padding: 0%;
+}
 
 footer {
-  background-color: yellow;
+  background-color: #510D0A;
   text-align: center;
+  color: #FCF7F8;
 }
  
