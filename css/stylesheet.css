@@ -6,9 +6,25 @@ body{
 
 header {
   text-align: center;
+  }
+
+#heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+  background-color: yellow;
 }
 
+#sidebar{ 
+  font-family: 'Times New Roman', Times, serif;
+  background-color: blue;
+  width:200px;
+  color: #FCF7F8;
+}
+
+
+
 footer {
-  background-color: #343330;
+  background-color: yellow;
   text-align: center;
 }
+ 
