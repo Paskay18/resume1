@@ -2,7 +2,9 @@ body{
   font-family: sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
-}
+  display: flex;
+  flex-direction: column;
+  }
 
 header {
   text-align: center;
@@ -12,45 +14,51 @@ header {
   font-family: 'Times New Roman', Times, serif;
   font-size: 120%;
   color: #FCF7F8;
-  background-color: #510D0A;
+  background-color: #32213a;
   margin: 0%;
   padding: 0%;
-  height: auto
-  ;
+  height: auto;
   width: auto;
 }
 
 #sidebar{ 
   font-family: 'Times New Roman', Times, serif;
-  background-color: #a29f15;
+  background-color: #66717e;
   width:200px;
-  height: auto;
-  color: #FCF7F8;
-  padding-top: 1rem;
-  margin: 0%;
+  height: 100%;
+  color: white;
+  padding-top: 0.6rem;
+  margin: 1%
 }
 
 .menu{
-  padding: 10%;
-  margin: 10%;
-  border: #a29f15 ;
- }
+  padding: 20%;
+  margin: 20%;
+  border:0pt;
+  text-align: left;
+  
+  }
 
 #profilepicture{ 
   width: 20%;
-  height: 20%;
+  height: 10%;
   border-radius: 100%;
-  border-color: blue;
+  border-color: white;
   border: 3px solid;
-  padding: 0%;
+  padding: 1%;
+  margin-top: 5%;
 }
 
 #mainsection{
   font-family: 'Times New Roman', Times, serif; 
-  border: 1pt white solid;
+  border: 0pt white solid;
   margin: 0rem;
-  padding:5% ;
-}
+  padding: 10px ;
+  text-align: left;
+  background-color: #a99988;
+  color: black;
+  width: 100%;
+  }
 
 .icon{
   width: 5rem;
@@ -59,8 +67,24 @@ header {
   padding: 0%;
 }
 
+.content{ 
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+#h2{
+   text-align: center;
+   padding-left: 10px;
+   }
+  
+   a{ 
+    color: white ;
+    font-size: large;
+  }
+
 footer {
-  background-color: #510D0A;
+  background-color: #32213a;
   text-align: center;
   color: #FCF7F8;
 }
